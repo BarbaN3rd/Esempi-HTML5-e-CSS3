@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Questo è un commento
+In HTML5 è necessari iniziare ogni documento indicando che si sta usando l'ultima versione.
+In questo caso HTML5 si usa <!DOCTYPE html> ed è assolutamente obbligatorio -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Questo indica il tipo di codifica dei caratteri, indicato per evitare 
+    problemi con accenti e simili -->
+    <title>Pagina di prova</title>
+    <link href="css3.css" rel="stylesheet">
+    <!-- Richiamo un file CSS esterno nominato CSS3 -->
+    <style>
+		a.link {color: brown; font-style: italic;}
+		.tops  {background-color: #ABB5F2; padding: 3px;}
+    </style>
+    <!-- CCS3 interno all'HTML usabile solo dentro questa pagina -->
+</head>
+<body>
+	<header id="header" > 
+    <!-- Indica la parte alta della pagina o il prima tag di un sezione o articolo -->
+        <hgroup> 
+        <!-- Indica un'insieme di titoli <h1> <h2> <h3> -->
+            <h1>Titolo 1</h1>
+            <h2>Sottotitolo 2</h2>
+        </hgroup>
+        <nav class="tops" >
+        <!-- Indica la parte della navigazione di una pagina HTML5 -->
+            <ul class="menu" >
+                <li><a href="pagina1.html" alt="Pagina 1" class="link" >Pagina 1</a></li>
+                <li><a href="pagina2.html" alt="Pagina 2" style="text-transform: uppercase;" >Pagina 2</a></li>
+                <li><a href="pagina3.html" alt="pagina 3"  class="menu item">Pagina 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Questo è un commento 
+* SELETTORI DI TIPO
+*/
+
+h1  {
+	color: red;
+	text-decoration: underline;
+}
+
+header h2 {
+	font-weight:  300;
+}
+
+/* ID */
+
+#header {
+	background-color: blue;
+	padding: 5px;
+}
+
+/* CLASSI MULTIPLE */
+
+.menu.item {
+	color: yellow;
+}
+
+
